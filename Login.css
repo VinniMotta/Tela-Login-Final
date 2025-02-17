@@ -1,0 +1,150 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;  
+
+width: auto;
+height: auto;
+}
+.videofundo video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+   
+}
+.form-box{
+ position:relative;
+ width: 450px;
+ height: 450px;
+ background: rgba(255, 255, 255, 0.197);
+ display:flex;
+ 
+ border-radius: 12px;
+
+ justify-content: center;
+ align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black    ;
+}
+
+h2{
+    font-size: 2em;
+    color:aliceblue;
+    text-align:center ;
+}
+.inputbox{
+    position: relative;
+    margin: 30px;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top : 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color:#fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color:#fff
+
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color:#fff;
+    font-size: 1.2em;
+    top:20px
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color:#fff;
+    justify-content: center;
+
+    color: #fff;
+}
+.forget label input{
+    margin-right: 3px;
+    text-decoration:underline ;
+}
+.forget label p a{
+    color:#fff;
+    text-decoration:underline ;
+   
+}
+.forget:hover{
+    text-decoration:underline ;
+    
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+
+    
+}
+.registrar{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.registrar p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.registrar p a:hover{
+    text-decoration: underline;
+}
+

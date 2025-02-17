@@ -1,0 +1,3 @@
+admin,admin@email.com,123456
+vinicius,v123@hotmail.com,121212
+ts,ts@gmail.com,ts
