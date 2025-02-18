@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width">
-        <title>Tela de Login</title>
+        <title>Registre-Se</title>
 
 
         <!-- Fonte Poppins -->
@@ -14,17 +14,7 @@
     </head>
     <body>
 
-        <!-- Alert Na Finalização do Login -->
-        <script>
-            function login(){
-
-                alert('Obrigado Pelo Login no nosso site! Você Será redirecionado para a página inicial.')
-
-
-            }
-
-        </script>
-
+    
 
 
 
@@ -40,35 +30,35 @@
         <section>
             <div class="form-box" name="viewport" content="width=device-width">
                 <div class="form-value">
-                    <form action="autenticar.php" method="POST">
+                    <form action="registrar_php.php" method="POST">
                         <br> <br> <br>
-                        <h2>Login</h2>
-                        <div class="inputbox" >
-                            <ion-icon name="person-circle-outline"></ion-icon>
-                            <input type="usuario" name="usuario" required>
-                            <label for="">Nome de usuario</label>
-                        </div>
+                        <h2>Registrar-Se</h2>
+
                         <div class="inputbox">
                             <ion-icon name="mail-outline"></ion-icon>
                             <input type="email" name="email" required>
                             <label for="">Email</label>
                         </div>
+
+                        <div class="inputbox" >
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                            <input type="usuario" name="usuario" required>
+                            <label for="">Nome de usuario</label>
+                        </div>
+
                         <div class="inputbox">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                             <input type="senha" name ="senha" required>
                             <label for="">Senha</label>
                         </div>
-                       <div class="forget">
-                        <a href="Recuperar.html" class="forget">Esqueci minha senha</a>
-
-                        </div>
+                       
 
                         
-                        <button type="submit">Login</button>
+                        <button type="submit" name="submit">Registrar-se</button>
                       
 
                         <div class="registrar">
-                            <p>Não tem uma conta ainda? <a href='Registrarhtml.html'>Registre-se</a></p>
+                            <p> <a href='LOGIN.html'>Voltar a Tela de Login</a></p>
                            <br> <br> <br>
                         </div>
                     </form>

@@ -25,9 +25,24 @@ foreach ($linhas as $linha) {
 if($autenticado){
 	header("Location: bemvindo.html");
 } else{
-	echo "<script>alert('Usuário ou senha incorretos!');</script>";
-	echo "<a href=LOGIN.html>Clique Aqui para Voltar para o site principal</a>";
+	echo "
+	<script>
 
+	alert('Usuario ou senha Incorretos');
+	window.history.back();
+	location.reload();
+
+
+
+	</script>
+
+	";	
+
+
+
+
+
+	
 }
 
 ?>

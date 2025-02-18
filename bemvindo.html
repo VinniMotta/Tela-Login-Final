@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>tela de login</title>
+        <title>Autenticado</title>
 
 
         <!-- Fonte Poppins -->
@@ -14,19 +14,13 @@
     </head>
     <body>
 
-        <!-- Alert Na Finalização do Login -->
+       
+        <!-- Alert pra quando estiver se deslogando do site -->
         <script>
-            function login(){
-
-                alert('Obrigado Pelo Login no nosso site! Você Será redirecionado para a página inicial.')
-
-
-            }
-
+                function logout(){
+                    alert('Você está se deslogando do site!');
+                }
         </script>
-
-
-
 
 
 
@@ -42,6 +36,8 @@
                 <div class="form-value">   
 
                     <h2>Você Foi Autenticado!</h2>
+                    <br><br><br><br><br>
+                    <a href="LOGIN.html" onclick="logout()"><h1>Logout</h1></a>
                                                  
                 </div>
             </div>

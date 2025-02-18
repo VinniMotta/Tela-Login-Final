@@ -1,3 +1,3 @@
-admin,admin@email.com,123456
-vinicius,v123@hotmail.com,121212
-ts,ts@gmail.com,ts
+admin,admin@email.com,d5327c2f
+vini1212,vini1212@gmail.com,vini1212
+123,123@gmail.com,123

@@ -60,6 +60,21 @@ h2{
     color:aliceblue;
     text-align:center ;
 }
+
+/* "Label Logout" */
+h1{
+    font-size: 1em;
+    color:aliceblue;
+    text-align:center ;
+}
+h1:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
 .inputbox{
     position: relative;
     margin: 30px;

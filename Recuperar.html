@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+
+        <div class="videofundo" name="viewport" content="width=device-width">
+            <video autoplay loop muted class="back-video"> <source src="videofundo_.mp4" type="video/mp4"> </video>
+        </div>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    
+
+<section>    
+    <div class="hero">
+        <div class="form-box">
+            <div class="form-value" >
+                <form action="recuperar_php.php" method="POST">
+                    <h2>Recuperar Senha</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" required>
+                        <label for="">Digite seu e-mail</label>
+                    </div>
+                    <button type="submit" name="submit">Recuperar Senha</button>
+                    <div class="registrar">
+                        <p><a href="LOGIN.html">Voltar ao login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
+
+
